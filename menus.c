@@ -149,7 +149,7 @@ void dev_menu(logged_user_t * user)
     users_t * start = NULL;
     start = malloc(sizeof(users_t));
     char str_temp[8] = "string";
-    char user_ID[10];
+    char user_ID[USER_MAX_NUM_LEN + 1];
 
     if(start == NULL)
     {
@@ -383,7 +383,7 @@ void user_menu(logged_user_t * user)
 {
     int user_input = -1;
     double val = 0;
-    char user_ID[10];
+    char user_ID[USER_MAX_NUM_LEN + 1];
     while(1)
     {
         printf("\n"

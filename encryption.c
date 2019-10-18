@@ -26,7 +26,7 @@ const char* encryption(char key[], char string[])
     strKey[i] = '\0';
     
     /*For each character until the end, add the ASCII value to string*/
-    for (i = 0; (i < 100 && string[i] != '\0'); i++)
+    for (i = 0; (i < USER_MAX_PW_LEN && string[i] != '\0'); i++)
     {
         encString[i] = string[i] + (int)strKey[i];
     }
@@ -62,7 +62,7 @@ const char* decryption(char key[], char string[])
     strKey[i] = '\0';
     
     /*For each character until the end, remove the ASCII value from encString*/
-    for (i = 0; (i < 100 && string[i] != '\0'); i++)
+    for (i = 0; (i < USER_MAX_PW_LEN && string[i] != '\0'); i++)
     {
         decString[i] = string[i] - (int)strKey[i];
     }
