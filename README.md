@@ -2,6 +2,8 @@
 
 GROUP 33 assignment 
 
+once compling the make file using ./BMS.out to run the code
+
 when compling this code there is two important parts
 in the file program_modes.h 
 you can toggle DEBUG mode on and off by commenting out the DEBUG define
