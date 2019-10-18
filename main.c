@@ -30,8 +30,7 @@
 *******************************************************************************/
 
 /*******************************************************************************
- * List header files - do NOT use any other header files. Note that stdlib.h is
- * included in case you want to use any of the functions in there. 
+ * List header files - do NOT use any other header files. 
 *******************************************************************************/
 
 #include "global.h"

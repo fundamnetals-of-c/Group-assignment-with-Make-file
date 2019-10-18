@@ -308,7 +308,7 @@ void admin_menu(logged_user_t * user)
     strcpy(start->user_lvl,"start");
     start->next = NULL;
 
-    char user_ID[10];
+    char user_ID[USER_MAX_NUM_LEN + 1];
   
     read_users(start);
 
